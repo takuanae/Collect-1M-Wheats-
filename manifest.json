@@ -1,0 +1,122 @@
+{
+  "minecraft": {
+    "version": "1.21.1",
+    "modLoaders": [
+      {
+        "id": "neoforge-21.1.248",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "Collect 1M Wheats!!",
+  "version": "1.0.0",
+  "author": "",
+  "overrides": "overrides",
+  "files": [
+    {
+      "projectID": 404468,
+      "fileID": 7878281,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 1689768,
+      "fileID": 8932688,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 238086,
+      "fileID": 8083208,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 60089,
+      "fileID": 5637846,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 404465,
+      "fileID": 8569579,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 289412,
+      "fileID": 8676238,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 410811,
+      "fileID": 8442866,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 419699,
+      "fileID": 8492726,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 248787,
+      "fileID": 7854442,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 1395288,
+      "fileID": 8891958,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 914018,
+      "fileID": 5881107,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 230976,
+      "fileID": 5849090,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 908741,
+      "fileID": 6118392,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 386134,
+      "fileID": 8231400,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 416294,
+      "fileID": 8463898,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 238222,
+      "fileID": 8964989,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 889915,
+      "fileID": 8909889,
+      "required": true,
+      "isLocked": false
+    }
+  ],
+  "image": "profileImage/icon(1).png"
+}

@@ -1,0 +1,401 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "collect_1m_wheats"
+	group: ""
+	id: "617B3BE3EED98097"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			id: "28C8756C6003FBC3"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/gamerule doDaylightCycle false"
+					id: "0AE64B3C4C8B83C4"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/gamerule doWeatherCycle false"
+					id: "160011B2BA8C9ACF"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/time set day"
+					id: "2DAE73BC9CCC1E1E"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "319FA3FFD148AEE1"
+					item: {
+						components: {
+							"minecraft:unbreakable": { }
+						}
+						count: 1
+						id: "minecraft:netherite_hoe"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "37FC5A62557F83CD"
+					item: {
+						count: 1
+						id: "minecraft:ice"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "19D966ED3D609F61"
+					item: {
+						count: 1
+						id: "minecraft:water_bucket"
+					}
+					type: "item"
+				}
+				{
+					count: 128
+					id: "6459231B07ECC7F8"
+					item: {
+						count: 1
+						id: "minecraft:bone_meal"
+					}
+					type: "item"
+				}
+				{
+					id: "416E4674FA9B4E6B"
+					item: {
+						count: 1
+						id: "constructionwand:infinity_wand"
+					}
+					type: "item"
+				}
+				{
+					count: 128
+					id: "6C5E7806960340B1"
+					item: {
+						count: 1
+						id: "minecraft:wheat_seeds"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4D7FB84431BA4564"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28C8756C6003FBC3"]
+			id: "6AF215EDF883464D"
+			tasks: [{
+				id: "4F9A3997CEBDAE2A"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["28C8756C6003FBC3"]
+			id: "2D12DCE88192F4D2"
+			tasks: [{
+				id: "32EEFEF1A184611B"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["28C8756C6003FBC3"]
+			icon: {
+				id: "kubejs:wheat_king"
+			}
+			id: "4F15A5DA89820524"
+			rewards: [{
+				id: "002D0BD3B891C9E8"
+				item: {
+					count: 1
+					id: "kubejs:wheat_king"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "6C55C12C04A8C8A7"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2D12DCE88192F4D2"]
+			icon: {
+				id: "kubejs:spd_up_1"
+			}
+			id: "28E81099C0AAF324"
+			rewards: [{
+				id: "143D21E9E982343B"
+				item: {
+					count: 1
+					id: "kubejs:spd_up_1"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "46448DAA86ED4DE8"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2D12DCE88192F4D2"]
+			icon: {
+				id: "kubejs:spd_up_2"
+			}
+			id: "04ECF6C90D0168A3"
+			rewards: [{
+				id: "380E213AB0E2E289"
+				item: {
+					count: 1
+					id: "kubejs:spd_up_2"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "12E81AD59ADD2BB9"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2D12DCE88192F4D2"]
+			icon: {
+				id: "kubejs:spd_up_3"
+			}
+			id: "2C2C9B8FE532AA81"
+			rewards: [{
+				id: "622F67F4DF2BC28B"
+				item: {
+					count: 1
+					id: "kubejs:spd_up_3"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2009340E0D66C34C"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6AF215EDF883464D"]
+			icon: {
+				id: "kubejs:val_up_1"
+			}
+			id: "13A142455FF92199"
+			rewards: [{
+				id: "32725426144E60B0"
+				item: {
+					count: 1
+					id: "kubejs:val_up_1"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "56E37A599266769F"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6AF215EDF883464D"]
+			icon: {
+				id: "kubejs:val_up_2"
+			}
+			id: "357FFA95114EDE25"
+			rewards: [{
+				id: "15FFC3FD55C62453"
+				item: {
+					count: 1
+					id: "kubejs:val_up_2"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F787138FE6AE2DC"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6AF215EDF883464D"]
+			icon: {
+				id: "kubejs:val_up_3"
+			}
+			id: "578C16E677AC837C"
+			rewards: [{
+				id: "23603C9F79AB471B"
+				item: {
+					count: 1
+					id: "kubejs:val_up_3"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B4095B28962EFE9"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6AF215EDF883464D"]
+			icon: {
+				id: "kubejs:val_up_4"
+			}
+			id: "0BAA3875AA482977"
+			rewards: [{
+				id: "2C886D46B3D357B1"
+				item: {
+					count: 1
+					id: "kubejs:val_up_4"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "40E3E8CE8FBC98FE"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6AF215EDF883464D"]
+			icon: {
+				id: "kubejs:val_up_5"
+			}
+			id: "4D65163AF71663E5"
+			rewards: [{
+				id: "7FAA34A9E1FA9F7A"
+				item: {
+					count: 1
+					id: "kubejs:val_up_5"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "17CA2BA07CD86021"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6AF215EDF883464D"]
+			icon: {
+				id: "kubejs:val_up_6"
+			}
+			id: "5386032A758BEA20"
+			rewards: [{
+				id: "2A7D8F64D745F253"
+				item: {
+					count: 1
+					id: "kubejs:val_up_6"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6164728BF88E6035"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["28C8756C6003FBC3"]
+			id: "0434F568AB00F07C"
+			tasks: [{
+				id: "7359EAAC307C919A"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["28C8756C6003FBC3"]
+			icon: {
+				id: "minecraft:bone_meal"
+			}
+			id: "73872D4E684D1963"
+			rewards: [{
+				count: 128
+				id: "2BB95448CBDA07BE"
+				item: {
+					count: 1
+					id: "minecraft:bone_meal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "326B54F1B731A44E"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["28C8756C6003FBC3"]
+			icon: {
+				id: "minecraft:wheat_seeds"
+			}
+			id: "661574CA135F0739"
+			rewards: [{
+				count: 128
+				id: "211620EB7B5D060E"
+				item: {
+					count: 1
+					id: "minecraft:wheat_seeds"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7923125A6528A2F4"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+}

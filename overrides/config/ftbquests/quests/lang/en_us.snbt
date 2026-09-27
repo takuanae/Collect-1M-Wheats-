@@ -1,0 +1,84 @@
+{
+	chapter.617B3BE3EED98097.title: "Collect 1M Wheats"
+	quest.0434F568AB00F07C.quest_desc: [
+		"You can open Trashcan using command, \"/trashcan\". You can discard items using it."
+		""
+		"You can craft &bbread&r by using three &ewheat&r."
+		""
+		"You can craft &bwheat&r by using three &ewheat seeds&r."
+		""
+		"You can hervest Wheats instantly by using &bFTB Ultimine&r. Assign preferred key and use."
+	]
+	quest.04ECF6C90D0168A3.quest_desc: [
+		"The random tick speed rose to 120."
+		""
+		"Consume: 10,000 Wheats."
+	]
+	quest.0BAA3875AA482977.quest_desc: [
+		"The value of wheat rose to 32."
+		""
+		"Consume: 1,500 Wheats."
+	]
+	quest.13A142455FF92199.quest_desc: [
+		"The value of wheat rose to 2."
+		""
+		"Consume: 10 Wheats."
+	]
+	quest.13A142455FF92199.title: "Wheat Value Upgrade 1"
+	quest.28C8756C6003FBC3.quest_desc: [
+		"Hoe is Unbrakeable."
+		""
+		"You can create water by break Ice."
+		""
+		"&dInfinity Wand&r is &euseful&r item. You can place many Wheat Seeds by holding &bWheat Seeds&r on &eOffHand&r and &bRight Click&r &dInfinity Wand&r on &eFarmland.&r"
+	]
+	quest.28C8756C6003FBC3.quest_subtitle: "You dicided to collect 1M Wheats and become Wheat KING."
+	quest.28E81099C0AAF324.quest_desc: [
+		"The random tick speed rose to 30."
+		""
+		"Consume: 100 Wheats."
+	]
+	quest.2C2C9B8FE532AA81.quest_desc: [
+		"The random tick speed rose to 3000."
+		""
+		"Consume: 300,000 Wheats."
+	]
+	quest.357FFA95114EDE25.quest_desc: [
+		"The value of wheat rose to 4."
+		""
+		"Consume: 50 Wheats."
+	]
+	quest.4D65163AF71663E5.quest_desc: [
+		"The value of wheat rose to 256."
+		""
+		"Consume: 15,000 Wheats."
+	]
+	quest.4F15A5DA89820524.quest_subtitle: "Collect 1M Wheats."
+	quest.5386032A758BEA20.quest_desc: [
+		"The value of wheat rose to 1024."
+		""
+		"Consume: 300,000 Wheats."
+	]
+	quest.578C16E677AC837C.quest_desc: [
+		"The value of wheat rose to 8."
+		""
+		"Consume: 200 Wheats."
+	]
+	quest.6AF215EDF883464D.title: "Wheats Value Upgrades"
+	task.0B4095B28962EFE9.title: "Wheat Value Upgrade 3"
+	task.12E81AD59ADD2BB9.title: "Wheat Grow Speed Upgrade 2"
+	task.17CA2BA07CD86021.title: "Wheat Value Upgrade 5"
+	task.2009340E0D66C34C.title: "Wheat Grow Speed Upgrade 3"
+	task.326B54F1B731A44E.title: "I Need More Bonemeals!!"
+	task.32EEFEF1A184611B.title: "Wheats Grow Speed Upgrades"
+	task.40E3E8CE8FBC98FE.title: "Wheat Value Upgrade 4"
+	task.46448DAA86ED4DE8.title: "Wheat Grow Speed Upgrade 1"
+	task.4D7FB84431BA4564.title: "Collect 1M Wheats"
+	task.4F787138FE6AE2DC.title: "Wheat Value Upgrade 2"
+	task.4F9A3997CEBDAE2A.title: "Wheats Value Upgrades"
+	task.56E37A599266769F.title: "Wheat Value Upgrade 1"
+	task.6164728BF88E6035.title: "Wheat Value Upgrade 6"
+	task.6C55C12C04A8C8A7.title: "1M Wheats"
+	task.7359EAAC307C919A.title: "Tips"
+	task.7923125A6528A2F4.title: "I Need More Seeds!!"
+}
