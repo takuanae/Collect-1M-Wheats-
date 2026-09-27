@@ -99,9 +99,9 @@ ItemEvents.rightClicked(event=>{
         event.player.tell('Thank you for playing.')
     } 
     else {
-        if(has_item!=itemid)return
-        if(consume>wheat_amo){
-            event.player.tell("You don't have enough wheats. You need 1000000 wheats.")
+        if(has_item!="kubejs:wheat_king")return
+        if(1000000>wheat_amo){
+            event.player.tell("You don't have enough wheats. You need 1000000 wheats to become Wheat KING.")
         }
     }
     
