@@ -3,3 +3,6 @@ ServerEvents.recipes(event=>{
     ['3x minecraft:wheat']
     )
 })
+BlockEvents.farmlandTrampled(event=>
+    event.cancel()
+)

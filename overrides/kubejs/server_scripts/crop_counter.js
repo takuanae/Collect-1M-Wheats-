@@ -63,7 +63,7 @@ ItemEvents.rightClicked(event=>{
     val_ups('kubejs:val_up_3',8,200)
     val_ups('kubejs:val_up_4',32,1500)
     val_ups('kubejs:val_up_5',256,15000)
-    val_ups('kubejs:val_up_6',2048,300000)
+    val_ups('kubejs:val_up_6',1024,300000)
 
     //ランダムティックスピード
     const spd =data.getInt('Speed')
@@ -88,7 +88,7 @@ ItemEvents.rightClicked(event=>{
     }
     spd_ups('kubejs:spd_up_1',30,100)
     spd_ups('kubejs:spd_up_2',120,10000)
-    spd_ups('kubejs:spd_up_3',3000,300000)
+    spd_ups('kubejs:spd_up_3',3000,150000)
 
     if (has_item=="kubejs:wheat_king"&&wheat_amo>=1000000) {
         event.server.runCommandSilent("execute as @a at @s run playsound minecraft:entity.player.levelup")

@@ -1,8 +1,6 @@
 {
 	chapter.617B3BE3EED98097.title: "Collect 1M Wheats"
 	quest.0434F568AB00F07C.quest_desc: [
-		"You can open Trashcan using command, \"/trashcan\". You can discard items using it."
-		""
 		"You can craft &bbread&r by using three &ewheat&r."
 		""
 		"You can hervest Wheats instantly by using &bFTB Ultimine&r. Assign preferred key and use."
@@ -27,7 +25,7 @@
 	quest.13A142455FF92199.quest_subtitle: "Right click to Upgrade."
 	quest.13A142455FF92199.title: "Wheat Value Upgrade 1"
 	quest.28C8756C6003FBC3.quest_desc: [
-		"Get &eWheats&r to right click &eWheat(Item)&r."
+		"Get &bWheats&r to right click &eWheat(Item)&r."
 		""
 		"Hoe is Unbrakeable."
 		""
@@ -45,7 +43,7 @@
 	quest.2C2C9B8FE532AA81.quest_desc: [
 		"The random tick speed rose to 3000."
 		""
-		"Consume: 300,000 Wheats."
+		"Consume: 150,000 Wheats."
 	]
 	quest.2C2C9B8FE532AA81.quest_subtitle: "Right click to Upgrade."
 	quest.357FFA95114EDE25.quest_desc: [
